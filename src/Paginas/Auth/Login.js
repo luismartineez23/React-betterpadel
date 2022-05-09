@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Navbar from "../../Layouts/Navbar";
+import Navbar from "../../Componentes/Cabecera/Navbar";
 import axios from "axios";
 import { useNavigate } from "react-router";
 import swal from "sweetalert";

@@ -1,4 +1,4 @@
-import Navbar from "../../Layouts/Navbar";
+import Navbar from "../../Componentes/Cabecera/Navbar";
 
 function Home() {
     
