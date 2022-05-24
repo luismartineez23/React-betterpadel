@@ -1,13 +1,16 @@
 import Navbar from "../../Componentes/Cabecera/Navbar";
 
 function Home() {
-    
-    return(
+
+
+    return (
         <div>
-            <Navbar/>
-            <h1>Home</h1> 
+            <Navbar />
+            <h1>Home</h1>
+
+            
         </div>
-        
+
     );
 }
 

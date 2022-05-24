@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 import swal from "sweetalert";
 import { Link } from "wouter";
 import './Navbar.css';
-import logo from '../../images/Logo_en_grande-removebg-preview.png';
+import logo from '../../images/Logo sobre negro bien.png';
 
 function Navbar() {
 
@@ -55,8 +55,8 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg shadow sticky-top cabecera">
             <div className="sinespacio">
                 <Link className="navbar-brand" to="/"><img className="imagen" src={logo} alt='Better padel'></img></Link>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
+                <div className="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul className='navbar-nav mb-2 mb-lg-0'>
                         {Botones}
 
                     </ul>
